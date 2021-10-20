@@ -1,0 +1,8 @@
+.navbar-container {
+  border-bottom: 1px solid lightgray;
+  background-color: white;
+}
+
+.navbar-container img {
+  margin: 19px 16px;
+}

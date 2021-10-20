@@ -1,0 +1,89 @@
+.airline-tile {
+  width: 330px;
+  height: 230px;
+  text-align: center;
+  background-color: white;
+  margin: 8px;
+  border-radius: 8px;
+  box-shadow: 0 -1px 4px 0 rgba(25, 32, 36, 0.04),
+    0 3px 6px 0 rgba(25, 32, 36, 0.16);
+}
+
+.airline-tile:hover {
+  outline: 1px solid #363f45;
+}
+
+.airline-tile-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.airline-content-container {
+  padding: 0 86px 0 94px;
+}
+
+.airplane-name {
+  font-family: HelveticalNeue;
+  font-size: 16px;
+  font-weight: bold;
+  color: #192024;
+}
+
+.airplane-content {
+  height: 230px;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  height: 32px;
+  width: 32px;
+  margin-right: 18px;
+}
+
+.title {
+  margin: 67px 0 73px 8px;
+  font-family: HeleveticaNeue;
+  font-size: 44px;
+  font-weight: 900;
+}
+
+.filter {
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 8px;
+  color: #192024;
+}
+
+.alliance-select-container {
+  margin-right: 24px;
+}
+
+.alliance-select-container input {
+  margin-right: 10px;
+}
+
+.alliance-name {
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  font-weight: normal;
+  color: #192024;
+}
+
+.airline-website {
+  width: 140px;
+  overflow-wrap: break-word;
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  color: #5a6a72;
+}
+
+.hidden {
+  display: none;
+}
